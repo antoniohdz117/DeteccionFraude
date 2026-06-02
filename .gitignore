@@ -1,0 +1,24 @@
+@"
+# Modelos entrenados
+*.pkl
+
+# Dataset y CSV generados
+DATA/
+*.csv
+
+# Logs
+LOGS/
+*.log
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
